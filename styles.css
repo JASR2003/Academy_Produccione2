@@ -1,0 +1,432 @@
+body{
+    font-family: "poppins";
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f3f5fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 59px;
+}
+
+h2 {
+   font-size: 30px; 
+}
+ 
+/* pagina */
+
+/* header */
+
+header {
+    background-image: url("png/portada-academy-producciones-1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-background {
+    background-color: rgba(89, 64, 178, 0.800);
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 0;
+}
+
+.header-top-left {
+    padding-left: 10px;
+}
+
+.header-top-left img {
+    width: 310px;
+}
+
+.header-top-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top-right ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-top-right ul li {
+    padding: 0 14px;
+}
+
+.header-top-right ul li a {
+    text-decoration: none;
+}
+
+.header-origin {
+    color: white;
+}
+
+.header-btn {
+    background-color: #d11c34;
+    padding: 12px 24px;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all .2s linear;
+}
+
+.header-btn:hover {
+    color: #475091;
+}
+
+.header-top-right-a {
+    color: #d0d8ea;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+.header-top-right-a:hover {
+    color: white;
+}
+
+.header-bottom {
+    color: white;
+}
+
+.header-bottom h1,.header-bottom h2,.header-bottom p {
+    display: flex;
+    justify-content: center;
+}
+
+.header-bottom h1{
+    margin-top: -20px;
+    margin-bottom: -15px;
+}
+
+.header-bottom h2 {
+    margin-bottom: -8px;
+}
+
+.header-bottom p {
+    color: #d0d8ea;
+    font-weight: 100;
+    padding-bottom: 200px;
+}
+
+/* main-1 */
+
+.main-1 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.main-1-container {
+    margin-top: -120px;
+    width: calc(80% / 3);
+    padding: 28px;
+    background-color: white;
+    box-shadow: 0px 0px 40px 0px rgba(36, 42, 86 , 0.15);
+}
+
+.main-1-container-linea {
+    width: 20%;
+    height: 8px;
+    background-color: #DF1F38;
+}
+
+.main-1-container h2 {
+    color: #2C2C2C;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.main-1-container p {
+    color: #7A7A7A;
+    font-size: 16px;
+}
+
+/* main-2 */
+
+.main-2 {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.main-2-left {
+    width: 100%;
+    background-image: url("png/somos-academy-producciones.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-2-right {
+    width: 100%;
+    max-width: calc(100% / 2);
+    background-color: white;
+    padding: 80px 70px;
+    box-sizing: border-box;
+}
+
+.main-2-linea {
+    width: 60px;
+    height: 1px;
+    background-color: #2C2C2C;
+}
+
+.main-2-right p, .main-2-right strong {
+    color: #686868;
+    font-size: 15px;
+}
+
+.main-2-right p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 1.5px;
+}
+
+/* pre y main-3 */
+
+.background-white {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+.main-3 {
+    width: 100%;
+    background-color: #5840B2; 
+    color: white;
+    padding-bottom: 100px;
+}
+
+.main-3 h4 {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    font-weight: 100;
+    font-family: "Roboto Mono", Sans-serif;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+.main-3 h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.main-3-section {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.main-3-section-container {
+    width: calc(85% / 4);
+    text-align: center;
+}
+
+.main-3-section-container img {
+    border-radius: 50%;
+}
+
+.main-3-section-container h2 {
+    line-height: 30px;
+}
+
+.main-3-section-container h3 {
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 6px;
+    word-spacing: 9px;
+    font-family: "Roboto Mono", Sans-serif;
+}
+
+.main-3-section-container-title {
+    height: 180px;
+}
+
+.main-3-section-container p {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+/* personas */
+
+.Chris {
+    color: #FDEC0D;
+}
+
+.belisima {
+    color: #E79696;
+}
+
+.luna {
+    color: #E6606E;
+}
+
+.Gabrielle {
+    color: #61CE70;
+}
+
+.Johan {
+    color: #FB7900;
+}
+
+.Yonathan {
+    color: #6EC1E4;
+}
+
+.Gabriel {
+    color: #D8ADF8;
+}
+
+.Lennin {
+    color: #A77AF7;
+}
+
+/* main-4 */
+
+.main-4 {
+    width: 100%;
+    background-color: white;
+    margin-top: auto;
+    padding-bottom: 60px;
+}
+
+.iniciar-proyecto {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    box-shadow: 0px 5px 40px -10px rgba(71, 84, 116, 0.33);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 45px 45px 45px;
+}
+
+.texto {
+    width: 68%;
+}
+
+.texto h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 38px;
+    color: #DF1F38;
+    font-family: "Oswald", Sans-serif;
+    letter-spacing: -1px;
+    margin-bottom: -5px;
+}
+
+
+.texto p {
+    color: #686868;
+}
+
+.whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ws a {
+    background-color: #DF1F38;
+    padding: 12px 35px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: #DF1F38;
+}
+
+.footer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.footer-top-left {
+    width: 410px;
+}
+
+.img-footer {
+    width: 150px;
+    height: 57px;
+    padding-bottom: 15px;
+}
+
+.footer-top-left p {
+    font-size: 15px;
+}
+
+.footer-icons {
+    padding-top: 50px;
+}
+.footer-icons .facebook-icon {
+    margin-right: 3px;
+}
+
+.footer-icons a {
+    text-decoration: none;
+    margin-right: 6px;
+}
+
+.footer-top-right h2 {
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+.list {
+    display: flex;
+    font-size: 15px;
+}
+
+.list img {
+    padding-right: 8px;
+}
+
+.linea {
+    width: 100%;
+    height: 1px;
+    background-color: #825174;
+}
+
+.footer-bottom p {
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 15px;
+}
