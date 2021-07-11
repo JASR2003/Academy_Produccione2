@@ -5,7 +5,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: #f3f5fa;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 0;
 }
 
@@ -15,6 +16,11 @@ h1 {
 
 h2 {
    font-size: 30px; 
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
 }
  
 /* pagina */
@@ -32,11 +38,12 @@ header {
     background-color: rgba(89, 64, 178, 0.800);
 }
 
-.header-top {
+.header-contenido {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
-    max-width: 1240px;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     padding: 16px 0;
@@ -54,14 +61,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.header-top-right ul {
-    display: flex;
     list-style: none;
+    text-decoration: none;
 }
 
-.header-top-right ul li {
+.header-top-right li {
     padding: 0 14px;
 }
 
@@ -95,6 +99,12 @@ header {
 
 .header-top-right-a:hover {
     color: white;
+}
+
+.menu-icon {
+    display: none;
+    background-color: #6878d6;
+    padding: 8px 8px 2px 8px;
 }
 
 .header-bottom {
@@ -433,7 +443,6 @@ footer {
 
 @media screen and (max-width: 1152px) {
 .header-top {
-    width: 95%;
     padding: 14px 0px;
 }
 
@@ -441,7 +450,7 @@ footer {
     width: 250px;
 }
 
-.header-top-right ul li {
+.header-top-right li {
     padding: 0 10px;
     font-size: 14px;
 }
@@ -516,4 +525,50 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
+
+.header-top-right{
+    display: none;
+}
+
+.header-top-right li {
+    padding: 0 0px;
+}
+
+.header-top-right.show{
+    display: block;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    z-index: 11111;
+    margin-top: -10px;
+}
+
+.header-top-right li a {
+    margin: auto 0;
+    padding: 10px auto;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    letter-spacing: 1px;
+    text-transform: initial;
+    transition: all .2s linear;
+    border-radius: 0px;
+    border-bottom: 1px solid #eaeaea;
+
+}
+
+.header-top-right li{
+    display: block;
+}
+
+.header-top-right li a{
+    display: block;
+    padding: .6rem 2rem;
+}
+
+.menu-icon{
+    display: block;
+    cursor: pointer;
+    margin-right: 30px;
+}
 }

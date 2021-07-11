@@ -1,7 +1,7 @@
 jQuery("document").ready(function($){
 
     var menuBtn = $(".menu-icon"),
-        menu = $(".navigation ul");
+        menu = $(".header-top-right");
 
     menuBtn.click(function() {
 
