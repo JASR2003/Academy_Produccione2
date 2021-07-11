@@ -430,3 +430,90 @@ footer {
     padding-bottom: 25px;
     font-size: 15px;
 }
+
+@media screen and (max-width: 1152px) {
+.header-top {
+    width: 95%;
+    padding: 14px 0px;
+}
+
+.header-top-left img {
+    width: 250px;
+}
+
+.header-top-right ul li {
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.header-btn {
+    padding: 11px 18px;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+}
+
+.header-bottom h1{
+    font-size: 45px;
+}
+
+.header-bottom h2 {
+    font-size: 25px;
+}
+
+.header-bottom p {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.main-1 {
+    width: 90%;
+}
+
+.main-1-container {
+    width: calc(75% / 3);
+}
+
+.main-1-container-linea {
+    height: 6px;
+}
+
+.main-1-container h2 {
+    font-size: 32px;
+    line-height: 34px;
+}
+
+.main-1-container p {
+    font-size: 14px;
+}
+
+.main-2-right p, .main-2-right strong {
+    font-size: 13px;
+}
+
+
+.main-3 h1 {
+    font-size: 50px;
+}
+
+.main-3-section {
+    width: 90%;
+}
+
+.iniciar-proyecto {
+    width: 75%;
+}
+
+.texto h2 {
+    font-size: 34px;
+    line-height: 36px;
+}
+
+
+.texto p {
+    font-size: 14px;
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+}
