@@ -38,14 +38,17 @@ header {
     background-color: rgba(89, 64, 178, 0.800);
 }
 
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
 .header-contenido {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 400px;
     padding: 16px 0;
 }
 
@@ -79,10 +82,11 @@ header {
 
 .header-btn {
     background-color: #d11c34;
-    padding: 12px 24px;
+    font-size: 14px;
+    padding: 12px 20px;
     border-radius: 5px;
     color: white;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
     transition: all .2s linear;
 }
@@ -526,6 +530,12 @@ footer {
 
 @media screen and (max-width: 1000px) {
 
+.header-contenido {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
 .header-top-right{
     display: none;
 }
@@ -540,7 +550,7 @@ footer {
     padding: 0;
     position: absolute;
     z-index: 11111;
-    margin-top: -10px;
+    margin-top: 125px;
 }
 
 .header-top-right li a {
@@ -571,4 +581,111 @@ footer {
     cursor: pointer;
     margin-right: 30px;
 }
+
+.main-1 {
+    width: 85%;
+    display: inline;
+}
+
+#main-1-container-mobile {
+    margin-bottom: 150px;
+}
+
+#main-1-container-final {
+    margin-bottom: 50px;
+
+}
+
+.main-1-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -120px;
+    width: calc(80%);
+}
+
+.main-1-container-linea {
+    height: 7px;
+}
+
+.main-1-container h2 {
+    font-size: 32px;
+    line-height: 34px;
+}
+
+.main-1-container p {
+    font-size: 14px;
+}
+
+.main-2-right p, .main-2-right strong {
+    font-size: 14px;
+}
+
+.main-2-left {
+    display: none;
+}
+
+.main-2-right {
+    width: 100%;
+    max-width: 100%;
+    padding: 80px 70px 0px 70px;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.background-white {
+    display: none;
+}
+
+.main-3-section {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    margin-top: 100px;
+}
+
+.main-3-section-container {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;   
+}
+.main-3-section-container-title {
+    height: 120px;
+}
+
+.iniciar-proyecto {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: block;
+}
+
+.texto {
+    width: 100%;
+}
+
+.texto h2 {
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.texto p {
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.footer-top {
+    display: block;
+}
+
+.footer-top-left {
+    width: 90%;
+    padding-bottom: 50px;
+}
+
 }
