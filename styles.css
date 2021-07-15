@@ -276,12 +276,12 @@ header {
 }
 
 .main-3-section-container-title {
-    height: 180px;
+    height: 150px;
 }
 
 .main-3-section-container p {
     font-weight: 100;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 /* personas */
@@ -318,6 +318,25 @@ header {
     color: #A77AF7;
 }
 
+.Ale {
+    color: #FBCB00;
+}
+
+.Roberto {
+    color: #D8ADF8;
+}
+
+.Namira {
+    color: #6EC1E4;
+}
+
+.Maryselva {
+    color: #F67AE5;
+}
+
+.Andreina {
+    color: #F6F57B;
+}
 /* main-4 */
 
 .main-4 {
