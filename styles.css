@@ -25,6 +25,18 @@ h2 {
  
 /* pagina */
 
+.uno {
+    --animate-duration: 1.5s;
+}
+
+.dos {
+    --animate-duration: 2s;
+}
+
+.tres {
+    --animate-duration: 2.5s;
+}
+
 /* header */
 
 header {
